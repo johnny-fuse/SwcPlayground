@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/swcrc",
+  "module": {
+    "type": "commonjs"
+  },
+  "jsc": {
+    "target": "es2017",
+    "parser": {
+      "syntax": "typescript",
+    },
+    "baseUrl": "src",
+    "paths": {
+        "shared/*": ["../../../shared/*"]
+    },
+  },
+  "minify": false
+}

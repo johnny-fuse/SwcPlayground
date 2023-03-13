@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "baseUrl": "src",
+    "module": "commonjs",
+    "target": "es2017",
+    "paths": {
+      "shared/*": ["../../../shared/*"]
+    }
+  },
+  "exclude": [
+    "**/dist/*",
+    "**/node_modules/*",
+  ]
+}
